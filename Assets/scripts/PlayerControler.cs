@@ -14,6 +14,8 @@ public class PlayerControler : MonoBehaviour {
     public int count;
 	private Rigidbody rb;
 
+    private bool isGrounded=false;
+
 	void Start()
 	{
 		rb = GetComponent<Rigidbody>();
@@ -29,7 +31,10 @@ public class PlayerControler : MonoBehaviour {
 		Vector3 movement = new Vector3 (moveHorizontail, 0.0f, moveVertical);
 
 		rb.AddForce (movement * speed);
-         
+        if (Input.GetKeyDown(KeyCode.Space)&&isGrounded) {
+            rb.AddForce(new Vector3(0, 500, 0));
+            isGrounded = false;
+        }
 
     }
 
@@ -51,4 +56,12 @@ public class PlayerControler : MonoBehaviour {
 			winText.text = "You Win!";
 		}
 	}
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.GetComponent<floor>()!=null) {
+            isGrounded = true;
+        }
+    }
 }

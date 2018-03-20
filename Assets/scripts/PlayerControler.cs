@@ -8,8 +8,10 @@ public class PlayerControler : MonoBehaviour {
 	public float speed;
 	public Text countText;
 	public Text winText;
+    
 
-	private int count;
+
+    public int count;
 	private Rigidbody rb;
 
 	void Start()
@@ -27,8 +29,9 @@ public class PlayerControler : MonoBehaviour {
 		Vector3 movement = new Vector3 (moveHorizontail, 0.0f, moveVertical);
 
 		rb.AddForce (movement * speed);
+         
 
-	}
+    }
 
 	void OnTriggerEnter(Collider other) {
 
@@ -41,7 +44,7 @@ public class PlayerControler : MonoBehaviour {
 
 	}
 
-	void updateText(int counter){
+	public void updateText(int counter){
 		countText.text = "Count: " + count.ToString ();
 		if (count >= 12)
 		{

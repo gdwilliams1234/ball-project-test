@@ -30,7 +30,7 @@ public class chase : MonoBehaviour {
         float pace = speed * Time.deltaTime;
         Vector3 heading = (target.position - transform.position).normalized;
         gameObject.GetComponent<Rigidbody>().AddForce(heading * pace);
-        
+        //transform.position = Vector3.MoveTowards(transform.position, target.position, pace);
     }
 }
 

@@ -11,7 +11,7 @@ public class reanimate : MonoBehaviour {
     void Update () {
 		if(pickup.activeInHierarchy == false)
         {
-            
+            print("died");
             
             Position = new Vector3(Random.Range(-5.0f, 5.0f), 1, Random.Range(-5.0f, 5.0f));
             pickup.transform.position = Position;

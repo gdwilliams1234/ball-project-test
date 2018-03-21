@@ -122,7 +122,7 @@ public class PlayerControler : MonoBehaviour {
 	public void updateText(int counter){
 		countText.text = "Count: " + count.ToString ();
 		
-        if(count ==-100)
+        if(count ==-50)
 		{
 			winText.text = "Wasted!";
             starttimer = true;  

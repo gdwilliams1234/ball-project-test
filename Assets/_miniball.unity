@@ -264,6 +264,7 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   m_MotionVectors: 1
@@ -272,6 +273,8 @@ MeshRenderer:
 >>>>>>> parent of ba8d690... Merge branch 'master' of https://github.com/gdwilliams1234/ball-project-test
 =======
 >>>>>>> parent of 24f233a... deactivated walls, added balls, physics, and new objective
+=======
+>>>>>>> parent of 19e5c81... Player Jump
 =======
 >>>>>>> parent of 19e5c81... Player Jump
   m_MotionVectors: 0
@@ -882,12 +885,15 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - component: {fileID: 757076819}
 >>>>>>> 19e5c81d2747380fefd10632ca4d40d57a1b41ff
 >>>>>>> parent of ba8d690... Merge branch 'master' of https://github.com/gdwilliams1234/ball-project-test
 =======
 >>>>>>> parent of 24f233a... deactivated walls, added balls, physics, and new objective
+=======
+>>>>>>> parent of 19e5c81... Player Jump
 =======
 >>>>>>> parent of 19e5c81... Player Jump
   m_Layer: 0

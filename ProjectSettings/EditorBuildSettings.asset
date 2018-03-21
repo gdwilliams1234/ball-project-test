@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_miniball.unity
+    guid: 0e9a14fffa0f05b478261b46995449f9
+  - enabled: 1
+    path: Assets/loserscreen.unity
+    guid: c90483a2a3ee1c24b8ca75632427288f

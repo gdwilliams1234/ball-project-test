@@ -261,6 +261,13 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  m_MotionVectors: 1
+=======
+  m_DynamicOccludee: 1
+>>>>>>> parent of ba8d690... Merge branch 'master' of https://github.com/gdwilliams1234/ball-project-test
   m_MotionVectors: 0
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -866,6 +873,11 @@ GameObject:
   - component: {fileID: 757076817}
   - component: {fileID: 757076816}
   - component: {fileID: 757076815}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 757076819}
+>>>>>>> 19e5c81d2747380fefd10632ca4d40d57a1b41ff
+>>>>>>> parent of ba8d690... Merge branch 'master' of https://github.com/gdwilliams1234/ball-project-test
   m_Layer: 0
   m_Name: ground
   m_TagString: Untagged
@@ -926,6 +938,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 757076814}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!4 &757076818
 Transform:
   m_ObjectHideFlags: 0
@@ -940,6 +953,9 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &793652224
+=======
+--- !u!1 &1201017394
+>>>>>>> parent of ba8d690... Merge branch 'master' of https://github.com/gdwilliams1234/ball-project-test
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}

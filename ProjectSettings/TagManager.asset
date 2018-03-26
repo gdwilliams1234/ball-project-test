@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - pickup
   - ground
   - ramp
+  - pickup
   - cake
   layers:
   - Default
@@ -17,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - teleport
   - 
   - 
   - 

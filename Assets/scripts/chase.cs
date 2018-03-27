@@ -8,7 +8,7 @@ public class chase : MonoBehaviour {
    
     public Transform target;
     public float speed;
-    private void Awake()
+    private void Start()
     {
         player = GameObject.Find("Cube");
         pc = player.GetComponent<PlayerControler>();
